@@ -7,10 +7,10 @@ from datetime import datetime, timedelta, timezone
 
 from sqlalchemy.orm import Session
 
-from ..database import get_db
-from ..schemas import TokenData
-from ..models import User
-from ..config import settings
+from app.database import get_db
+from app.schemas import TokenData
+from app.models import User
+from app.config import settings
 
 
 # to get a string like this run:
