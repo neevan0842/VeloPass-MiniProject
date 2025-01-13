@@ -9,6 +9,8 @@ __pycache__/
 # DB files
 *.db
 
+model/best.pt
+
 # Distribution / packaging
 .Python
 build/
