@@ -8,7 +8,7 @@ from datetime import datetime, timedelta, timezone
 from sqlalchemy.orm import Session
 
 from app.database import get_db
-from app.schemas import TokenData
+from app.auth.schemas import TokenData
 from app.models import User
 from app.config import settings
 
